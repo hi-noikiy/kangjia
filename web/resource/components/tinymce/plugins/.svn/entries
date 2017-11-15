@@ -1,0 +1,151 @@
+10
+
+dir
+361
+svn://127.0.0.1/kangjia/web/resource/components/tinymce/plugins
+svn://127.0.0.1/kangjia
+
+
+
+2017-09-01T08:54:23.871750Z
+2
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d6273ff3-079f-4fef-9794-6be2ae397c52
+
+media
+dir
+
+pagebreak
+dir
+
+insertdatetime
+dir
+
+image
+dir
+
+importcss
+dir
+
+textcolor
+dir
+
+noneditable
+dir
+
+autolink
+dir
+
+example_dependency
+dir
+
+autoresize
+dir
+
+example
+dir
+
+save
+dir
+
+lists
+dir
+
+emoticons
+dir
+
+visualblocks
+dir
+
+tabfocus
+dir
+
+advlist
+dir
+
+hr
+dir
+
+anchor
+dir
+
+layer
+dir
+
+preview
+dir
+
+directionality
+dir
+
+wordcount
+dir
+
+visualchars
+dir
+
+legacyoutput
+dir
+
+table
+dir
+
+autosave
+dir
+
+print
+dir
+
+link
+dir
+
+multiimage
+dir
+
+nonbreaking
+dir
+
+fullpage
+dir
+
+searchreplace
+dir
+
+fullscreen
+dir
+
+spellchecker
+dir
+
+contextmenu
+dir
+
+code
+dir
+
+charmap
+dir
+
+template
+dir
+
+paste
+dir
+
+bbcode
+dir
+

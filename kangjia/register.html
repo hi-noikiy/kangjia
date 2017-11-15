@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<img class="main-img" src="img/main_img.png"/>
+		<img src="img/watch_ball.png" class="ball-tips" />
+		<img src="img/info_tips.png" class="rule-title" />
+		<section class="info-wrap" >
+			<div class="item">
+				<h2>姓名</h2>
+				<input type="text" id="name" value="" />
+			</div>
+			<div class="item">
+				<h2>电话</h2>
+				<input type="text" id="number" value="" />
+			</div>
+			<div class="item">
+				<h2>联系地址<br /><span>（方便邮寄礼品）</span></h2>
+				<input type="text" id="address" value="" />
+			</div>
+		</section>
+		<img id="submit" src="img/djcj_btn.png" class="index-btn" />
+		<script src="js/common.js"></script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function () {
+				var reg = /^1[34578]\d{9}$/;
+				function fid (_id) {
+					return document.getElementById(_id);
+				}
+				var name = fid('name'),
+					number = fid('number'),
+					address = fid('address');
+				fid('submit').onclick = function () {
+					if (name.value.trim() === '' || number.value.trim() === '' || address.value.trim() === '') {
+						alert('请先填写完整信息');
+						return ;
+					}
+					if(!reg.test(number.value)) {
+						alert('您好，您填写的手机号码格式不正确');
+						return false;
+					}
+					//passed
+					window.location.href = 'guajiang.html';
+				}
+			}, false)
+		</script>
+	</body>
+</html>

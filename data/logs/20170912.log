@@ -1,0 +1,160 @@
+2017-09-12 13:37:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwDxXJnfgM9trcosbKhSjB74]]></FromUserName>
+<CreateTime>1505194632</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-12 13:37:12 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwDxXJnfgM9trcosbKhSjB74',
+    'createtime' => '1505194632',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwDxXJnfgM9trcosbKhSjB74',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1505194632',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-12 13:37:12 response :
+------------
+
+2017-09-12 13:37:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwDxXJnfgM9trcosbKhSjB74]]></FromUserName>
+<CreateTime>1505194677</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[康佳电视不是智能的可以添加易互动吗]]></Content>
+<MsgId>6464761912244449921</MsgId>
+</xml>
+
+2017-09-12 13:37:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwDxXJnfgM9trcosbKhSjB74',
+    'createtime' => '1505194677',
+    'msgtype' => 'text',
+    'content' => '康佳电视不是智能的可以添加易互动吗',
+    'msgid' => '6464761912244449921',
+    'from' => 'oKcVMwDxXJnfgM9trcosbKhSjB74',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1505194677',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-09-12 13:37:57 response :
+------------
+
+2017-09-12 19:40:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwMB6tLCbxLndTHbYBHblv2A]]></FromUserName>
+<CreateTime>1505216412</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-12 19:40:12 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwMB6tLCbxLndTHbYBHblv2A',
+    'createtime' => '1505216412',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwMB6tLCbxLndTHbYBHblv2A',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1505216412',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-12 19:40:12 response :
+------------
+
+2017-09-12 22:53:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwA5m5dxGNM82019Zo9FzsEg]]></FromUserName>
+<CreateTime>1505227999</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-12 22:53:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwA5m5dxGNM82019Zo9FzsEg',
+    'createtime' => '1505227999',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwA5m5dxGNM82019Zo9FzsEg',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1505227999',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-12 22:53:19 response :
+------------
+
+2017-09-12 22:53:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwA5m5dxGNM82019Zo9FzsEg]]></FromUserName>
+<CreateTime>1505228011</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

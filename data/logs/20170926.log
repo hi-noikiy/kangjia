@@ -1,0 +1,81 @@
+2017-09-26 11:18:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwGOlX86Wg2zYnN-I2nXMqGE]]></FromUserName>
+<CreateTime>1506395884</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-26 19:27:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwNli74HfPn73F0GFIvj3idc]]></FromUserName>
+<CreateTime>1506425226</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-26 20:01:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwPapT9W4syEskU3xpbF1vmY]]></FromUserName>
+<CreateTime>1506427316</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-26 21:33:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwNpJfjOZeS_N-ohmt7LMLT4]]></FromUserName>
+<CreateTime>1506432827</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-26 23:36:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwCltZ043Gzt1-55bfGWEv78]]></FromUserName>
+<CreateTime>1506440162</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-26 23:36:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwCltZ043Gzt1-55bfGWEv78',
+    'createtime' => '1506440162',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwCltZ043Gzt1-55bfGWEv78',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1506440162',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-26 23:36:02 response :
+------------
+

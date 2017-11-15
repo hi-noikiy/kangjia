@@ -1,0 +1,80 @@
+{template '_header'}
+<div class="page-heading"> 
+	<span class='pull-right'>
+
+		<a class="btn btn-default  btn-sm" href="{php echo webUrl('shop/orderlist')}">返回列表</a>
+	</span>
+	<h2>审核订单</small></h2> 
+</div>
+ 
+    <form {ife 'shop.adv' $item}action="" method="post"{/if} class="form-horizontal form-validate" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="{$item['id']}" />
+        		<input type="hidden"   name="openid"   value="{$item['openid']}"/>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">用户姓名</label>
+                    <div class="col-sm-9 col-xs-12">
+                                <input type="text"  class="form-control" value="{$item['name']}"  readonly="readonly" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label ">用户手机</label>
+                    <div class="col-sm-9 col-xs-12 ">
+                        	<input type="text"  class="form-control" value="{$item['mobile']}"   readonly="readonly" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label ">详细地址</label>
+                    <div class="col-sm-9 col-xs-12 ">
+                        	<input type="text"  class="form-control" value="{$item['address']}"   readonly="readonly" />
+                    </div>
+                </div>
+                
+                 <div class="form-group">
+                    <label class="col-sm-2 control-label ">提交时间</label>
+                    <div class="col-sm-9 col-xs-12 ">
+                        	<input type="text"  class="form-control" value="{php  echo date('Y-m-d H:i:s',$item['addtime']);}"   readonly="readonly" />
+                    </div>
+                </div>
+                
+                
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">订单状态</label>
+                    <div class="col-sm-9 col-xs-12">
+                    	{ife 'shop.adv' $item}
+                    		<label class='radio-inline'>
+                            	<input type='radio' name='enabled' value=1' {if $item['enabled']==1}checked{/if} /> 正常
+                            </label>
+                        	<label class='radio-inline'>
+                        		<input type='radio' name='enabled' value=0' {if $item['enabled']==0}checked{/if} /> 异常(设为异常会取消用户的奖品,并通知用户,不可恢复)
+                        	</label>
+                        {else}
+                            <div class='form-control-static'>{if empty($item['enabled'])}异常{else}正常{/if}</div>
+                        {/if}
+                    </div>
+                </div>
+            
+            <div class="form-group">
+                    <label class="col-sm-2 control-label"></label>
+                    <div class="col-sm-9 col-xs-12">
+                    	{ife 'shop.adv' $item}
+                    		<input type="submit" value="提交" class="btn btn-primary"  />
+                    	{/if}
+                       <input type="button" name="back" onclick='history.back()' {ifp 'shop.adv.add|shop.adv.edit'}style='margin-left:10px;'{/if} value="返回列表" class="btn btn-default" />
+                    </div>
+            </div>
+ 
+    </form>
+ 
+
+<script language='javascript'>
+    function formcheck() {
+        if ($("#advname").isEmpty()) {
+            Tip.focus("advname", "请填写幻灯片名称!");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+{template '_footer'}

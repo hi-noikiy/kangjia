@@ -1,0 +1,112 @@
+2017-09-09 08:59:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwOE1PFVXGc-qJzRWdh_cz0I]]></FromUserName>
+<CreateTime>1504918754</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-09 08:59:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwOE1PFVXGc-qJzRWdh_cz0I',
+    'createtime' => '1504918754',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwOE1PFVXGc-qJzRWdh_cz0I',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504918754',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-09 08:59:14 response :
+------------
+
+2017-09-09 10:31:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwEHD07r8cZ6-I-vJ33rjhnw]]></FromUserName>
+<CreateTime>1504924296</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[可以贴在墙上的电视]]></Content>
+<MsgId>6463600634691888798</MsgId>
+</xml>
+
+2017-09-09 10:31:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwEHD07r8cZ6-I-vJ33rjhnw',
+    'createtime' => '1504924296',
+    'msgtype' => 'text',
+    'content' => '可以贴在墙上的电视',
+    'msgid' => '6463600634691888798',
+    'from' => 'oKcVMwEHD07r8cZ6-I-vJ33rjhnw',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504924296',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-09-09 10:31:37 response :
+------------
+
+2017-09-09 13:16:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLbBUnY0952NQPBNrD3qjG4]]></FromUserName>
+<CreateTime>1504934210</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-09 13:16:50 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwLbBUnY0952NQPBNrD3qjG4',
+    'createtime' => '1504934210',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwLbBUnY0952NQPBNrD3qjG4',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504934210',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-09 13:16:50 response :
+------------
+

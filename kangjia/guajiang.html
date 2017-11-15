@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<style type="text/css">
+			#container {
+				position:relative;
+				width: 80%;
+				height: 105px;
+				margin: 30px auto;
+				box-sizing: border-box;
+				padding: 15px;
+				background-color: #fffcdb;
+			}
+			#redux {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<img class="main-img" src="img/main_img.png"/>
+		<img src="img/watch_ball.png" class="ball-tips" />
+		<img src="img/jx_tips.png" class="index-btn"/>
+		<div id="container">
+			<div class="mask-img"><img id="level-img" style="visibility: hidden;" src="img/level_0.png"></div>
+			<img id="redux" src="img/guajiang_bg.png" />
+		</div>
+		<a href="get.html"><img id="get" style="display: none;" src="img/lq_btn.png" class="index-btn"/></a>
+		<script src="js/common.js"></script>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/jquery.eraser.js"></script>
+		<script type="text/javascript">
+			
+			$(function () {
+				
+				var levelArr = ['img/level_0.png','img/level_1.png','img/level_2.png', 'img/level_3.png', 'img/noting_img.png'];
+				//$('#level-img')[0].src = ;
+				var index = Math.ceil(Math.random()*(levelArr.length-1));
+				$('#level-img').attr('src', levelArr[index]).css('visibility', 'visible');
+				$('#level-img').load(function () {
+					$('#redux').eraser({
+						size: 20,
+						completeRatio: .6,
+						completeFunction: function () {
+							var get = $('#get');
+							//暂时随机来一个奖品
+							if (index === levelArr.length-1) {
+								//没中奖
+								get.hide();
+							}else {
+								get.show();
+							}
+						}
+					});
+				});
+			})
+		</script>
+	</body>
+</html>

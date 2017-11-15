@@ -1,0 +1,182 @@
+2017-10-04 15:53:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwJY9OiEz5kWE2m_4k6Mr-h4]]></FromUserName>
+<CreateTime>1507103606</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-04 19:01:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLCQqc-jOeI-PZmj_7Qamrg]]></FromUserName>
+<CreateTime>1507114868</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-04 19:01:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwLCQqc-jOeI-PZmj_7Qamrg',
+    'createtime' => '1507114868',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwLCQqc-jOeI-PZmj_7Qamrg',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1507114868',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-10-04 19:01:08 response :
+------------
+
+2017-10-04 19:01:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLCQqc-jOeI-PZmj_7Qamrg]]></FromUserName>
+<CreateTime>1507114882</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[多屏互动]]></Content>
+<MsgId>6473009129921610771</MsgId>
+</xml>
+
+2017-10-04 19:01:22 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwLCQqc-jOeI-PZmj_7Qamrg',
+    'createtime' => '1507114882',
+    'msgtype' => 'text',
+    'content' => '多屏互动',
+    'msgid' => '6473009129921610771',
+    'from' => 'oKcVMwLCQqc-jOeI-PZmj_7Qamrg',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1507114882',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-04 19:01:22 response :
+------------
+
+2017-10-04 19:04:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLCQqc-jOeI-PZmj_7Qamrg]]></FromUserName>
+<CreateTime>1507115074</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-04 19:19:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwJSfUqlStIm3BV8ryYnc_Aw]]></FromUserName>
+<CreateTime>1507115943</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-04 19:19:03 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwJSfUqlStIm3BV8ryYnc_Aw',
+    'createtime' => '1507115943',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwJSfUqlStIm3BV8ryYnc_Aw',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1507115943',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-10-04 19:19:03 response :
+------------
+
+2017-10-04 19:20:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwJSfUqlStIm3BV8ryYnc_Aw]]></FromUserName>
+<CreateTime>1507116028</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-04 21:36:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwCYDYBfIuYQK4LrAEQ3zc6A]]></FromUserName>
+<CreateTime>1507124187</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-04 21:36:28 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwCYDYBfIuYQK4LrAEQ3zc6A',
+    'createtime' => '1507124187',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwCYDYBfIuYQK4LrAEQ3zc6A',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1507124187',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-10-04 21:36:28 response :
+------------
+

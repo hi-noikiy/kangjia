@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<img class="main-img" src="img/main_img.png"/>
+		<img src="img/watch_ball.png" class="ball-tips" />
+		<img src="img/ball_bg.png" class="rule-title" style="margin-top: -5px;" />
+		<div class="rule-content" style="height: 170px;" >
+			<div id="wrapper" style="height: 100%; border: 1px solid #666; overflow: hidden;">
+				<div id="scroller" class="wrap">
+					11111111111112222222222222222222222222222333333333fvrekv, fakefakefakefakefakefake11111111111112222222222222222222222222222333333333fvrekv, fakefakefakefakefakefake fuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuckfuck
+				</div>
+			</div>
+		</div>
+		<img src="img/back.png" class="index-btn"/>
+		<script src="js/common.js"></script>
+		<script src="js/iscroll.js"></script>
+		<script type="text/javascript">
+			new IScroll('#wrapper', {
+				bounceLock: true
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,172 @@
+2017-09-27 22:50:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLSIzIy6wnGnqKBekjSuMJM]]></FromUserName>
+<CreateTime>1506523805</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-27 22:50:05 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwLSIzIy6wnGnqKBekjSuMJM',
+    'createtime' => '1506523805',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwLSIzIy6wnGnqKBekjSuMJM',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1506523805',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-27 22:50:05 response :
+------------
+
+2017-09-27 22:50:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLSIzIy6wnGnqKBekjSuMJM]]></FromUserName>
+<CreateTime>1506523857</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[康佳6610u开机后一直显示康佳的标志进入不了系统！]]></Content>
+<MsgId>6470470696875326661</MsgId>
+</xml>
+
+2017-09-27 22:50:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwLSIzIy6wnGnqKBekjSuMJM',
+    'createtime' => '1506523857',
+    'msgtype' => 'text',
+    'content' => '康佳6610u开机后一直显示康佳的标志进入不了系统！',
+    'msgid' => '6470470696875326661',
+    'from' => 'oKcVMwLSIzIy6wnGnqKBekjSuMJM',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1506523857',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-09-27 22:50:57 response :
+------------
+
+2017-09-27 22:56:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLSIzIy6wnGnqKBekjSuMJM]]></FromUserName>
+<CreateTime>1506524183</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-27 22:59:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwButDlziUb9SrkKC0hHA9VE]]></FromUserName>
+<CreateTime>1506524373</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-27 22:59:34 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwButDlziUb9SrkKC0hHA9VE',
+    'createtime' => '1506524373',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwButDlziUb9SrkKC0hHA9VE',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1506524373',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-27 22:59:34 response :
+------------
+
+2017-09-27 22:59:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwButDlziUb9SrkKC0hHA9VE]]></FromUserName>
+<CreateTime>1506524382</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好]]></Content>
+<MsgId>6470472951733157171</MsgId>
+</xml>
+
+2017-09-27 22:59:43 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwButDlziUb9SrkKC0hHA9VE',
+    'createtime' => '1506524382',
+    'msgtype' => 'text',
+    'content' => '你好',
+    'msgid' => '6470472951733157171',
+    'from' => 'oKcVMwButDlziUb9SrkKC0hHA9VE',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1506524382',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-09-27 22:59:43 response :
+------------
+
+2017-09-27 23:00:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwButDlziUb9SrkKC0hHA9VE]]></FromUserName>
+<CreateTime>1506524401</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

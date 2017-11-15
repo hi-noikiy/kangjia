@@ -1,0 +1,582 @@
+2017-09-07 16:47:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_cebadbc0cbe2]]></ToUserName>
+<FromUserName><![CDATA[oy9zit6TfmwCZo6u88ZPTkhyLEd8]]></FromUserName>
+<CreateTime>1504774067</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-07 16:47:47 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_cebadbc0cbe2',
+    'fromusername' => 'oy9zit6TfmwCZo6u88ZPTkhyLEd8',
+    'createtime' => '1504774067',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oy9zit6TfmwCZo6u88ZPTkhyLEd8',
+    'to' => 'gh_cebadbc0cbe2',
+    'time' => '1504774067',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-07 16:47:47 response :
+------------
+
+2017-09-07 16:47:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_cebadbc0cbe2]]></ToUserName>
+<FromUserName><![CDATA[oy9zit6TfmwCZo6u88ZPTkhyLEd8]]></FromUserName>
+<CreateTime>1504774072</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.so.com]]></EventKey>
+<MenuId>404831247</MenuId>
+</xml>
+
+2017-09-07 16:47:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_cebadbc0cbe2',
+    'fromusername' => 'oy9zit6TfmwCZo6u88ZPTkhyLEd8',
+    'createtime' => '1504774072',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.so.com',
+    'menuid' => '404831247',
+    'from' => 'oy9zit6TfmwCZo6u88ZPTkhyLEd8',
+    'to' => 'gh_cebadbc0cbe2',
+    'time' => '1504774072',
+    'type' => 'text',
+    'content' => 'http://www.so.com',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-07 16:47:52 response :
+------------
+
+2017-09-07 16:48:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_cebadbc0cbe2]]></ToUserName>
+<FromUserName><![CDATA[oy9zit6TfmwCZo6u88ZPTkhyLEd8]]></FromUserName>
+<CreateTime>1504774080</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://m.so.com]]></EventKey>
+<MenuId>404831247</MenuId>
+</xml>
+
+2017-09-07 16:48:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_cebadbc0cbe2',
+    'fromusername' => 'oy9zit6TfmwCZo6u88ZPTkhyLEd8',
+    'createtime' => '1504774080',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://m.so.com',
+    'menuid' => '404831247',
+    'from' => 'oy9zit6TfmwCZo6u88ZPTkhyLEd8',
+    'to' => 'gh_cebadbc0cbe2',
+    'time' => '1504774080',
+    'type' => 'text',
+    'content' => 'http://m.so.com',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-07 16:48:00 response :
+------------
+
+2017-09-07 17:28:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLtobWfDFIg_5rB5fPoK6Yo]]></FromUserName>
+<CreateTime>1504776523</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[测试]]></Content>
+<MsgId>6462965954489599042</MsgId>
+</xml>
+
+2017-09-07 17:28:44 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwLtobWfDFIg_5rB5fPoK6Yo',
+    'createtime' => '1504776523',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '6462965954489599042',
+    'from' => 'oKcVMwLtobWfDFIg_5rB5fPoK6Yo',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504776523',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'basic',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-09-07 17:28:44 response :
+------------
+Array:
+FromUserName : gh_ceac403c5625 ;
+ToUserName : oKcVMwLtobWfDFIg_5rB5fPoK6Yo ;
+MsgType : text ;
+Content : 测试 ;
+
+2017-09-07 17:30:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLtobWfDFIg_5rB5fPoK6Yo]]></FromUserName>
+<CreateTime>1504776601</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[测试]]></Content>
+<MsgId>6462966289497048177</MsgId>
+</xml>
+
+2017-09-07 17:30:01 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwLtobWfDFIg_5rB5fPoK6Yo',
+    'createtime' => '1504776601',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '6462966289497048177',
+    'from' => 'oKcVMwLtobWfDFIg_5rB5fPoK6Yo',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504776601',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'basic',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '18',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-09-07 17:30:01 response :
+------------
+Array:
+FromUserName : gh_ceac403c5625 ;
+ToUserName : oKcVMwLtobWfDFIg_5rB5fPoK6Yo ;
+MsgType : text ;
+Content : http://kangjia.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile ;
+
+2017-09-07 17:47:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwKXm48IE-r2BXSrMaHfyhUk]]></FromUserName>
+<CreateTime>1504777643</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-07 17:47:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwKXm48IE-r2BXSrMaHfyhUk',
+    'createtime' => '1504777643',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwKXm48IE-r2BXSrMaHfyhUk',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504777643',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-07 17:47:23 response :
+------------
+
+2017-09-07 17:47:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwKXm48IE-r2BXSrMaHfyhUk]]></FromUserName>
+<CreateTime>1504777656</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[测试]]></Content>
+<MsgId>6462970820687546062</MsgId>
+</xml>
+
+2017-09-07 17:47:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwKXm48IE-r2BXSrMaHfyhUk',
+    'createtime' => '1504777656',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '6462970820687546062',
+    'from' => 'oKcVMwKXm48IE-r2BXSrMaHfyhUk',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504777656',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'basic',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '18',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-09-07 17:47:36 response :
+------------
+Array:
+FromUserName : gh_ceac403c5625 ;
+ToUserName : oKcVMwKXm48IE-r2BXSrMaHfyhUk ;
+MsgType : text ;
+Content : http://kangjia.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile ;
+
+2017-09-07 17:48:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwCJq6JAXY9QhTFeZMNkK9xw]]></FromUserName>
+<CreateTime>1504777737</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-07 17:48:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwCJq6JAXY9QhTFeZMNkK9xw',
+    'createtime' => '1504777737',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwCJq6JAXY9QhTFeZMNkK9xw',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504777737',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-07 17:48:57 response :
+------------
+
+2017-09-07 17:49:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwCJq6JAXY9QhTFeZMNkK9xw]]></FromUserName>
+<CreateTime>1504777744</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[测试]]></Content>
+<MsgId>6462971198644668178</MsgId>
+</xml>
+
+2017-09-07 17:49:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwCJq6JAXY9QhTFeZMNkK9xw',
+    'createtime' => '1504777744',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '6462971198644668178',
+    'from' => 'oKcVMwCJq6JAXY9QhTFeZMNkK9xw',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504777744',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'basic',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '18',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-09-07 17:49:05 response :
+------------
+Array:
+FromUserName : gh_ceac403c5625 ;
+ToUserName : oKcVMwCJq6JAXY9QhTFeZMNkK9xw ;
+MsgType : text ;
+Content : http://kangjia.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile ;
+
+2017-09-07 19:08:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwNguGMLfGMm8rRPxuJsZGBI]]></FromUserName>
+<CreateTime>1504782538</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-07 20:31:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwKqw6GNt79GHBxgMHqg5H-8]]></FromUserName>
+<CreateTime>1504787489</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-07 20:31:29 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwKqw6GNt79GHBxgMHqg5H-8',
+    'createtime' => '1504787489',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwKqw6GNt79GHBxgMHqg5H-8',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504787489',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-07 20:31:29 response :
+------------
+
+2017-09-07 20:31:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwKqw6GNt79GHBxgMHqg5H-8]]></FromUserName>
+<CreateTime>1504787504</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-07 20:55:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwCc7lWHjS08Fm8nhPYLU7SA]]></FromUserName>
+<CreateTime>1504788956</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-07 20:55:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwCc7lWHjS08Fm8nhPYLU7SA',
+    'createtime' => '1504788956',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwCc7lWHjS08Fm8nhPYLU7SA',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504788956',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-07 20:55:56 response :
+------------
+
+2017-09-07 20:56:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwCc7lWHjS08Fm8nhPYLU7SA]]></FromUserName>
+<CreateTime>1504788985</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[这里能报修么？]]></Content>
+<MsgId>6463019478372051570</MsgId>
+</xml>
+
+2017-09-07 20:56:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwCc7lWHjS08Fm8nhPYLU7SA',
+    'createtime' => '1504788985',
+    'msgtype' => 'text',
+    'content' => '这里能报修么？',
+    'msgid' => '6463019478372051570',
+    'from' => 'oKcVMwCc7lWHjS08Fm8nhPYLU7SA',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504788985',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-09-07 20:56:25 response :
+------------
+
+2017-09-07 22:54:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwD06agpO9EK9KASPmtow3xQ]]></FromUserName>
+<CreateTime>1504796093</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-07 22:54:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwD06agpO9EK9KASPmtow3xQ',
+    'createtime' => '1504796093',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwD06agpO9EK9KASPmtow3xQ',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1504796093',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-07 22:54:53 response :
+------------
+

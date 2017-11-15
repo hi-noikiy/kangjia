@@ -1,0 +1,152 @@
+2017-09-25 10:36:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwOQ9RWCY0i6UCeQhPOb3iyw]]></FromUserName>
+<CreateTime>1506307010</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-25 10:36:50 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwOQ9RWCY0i6UCeQhPOb3iyw',
+    'createtime' => '1506307010',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwOQ9RWCY0i6UCeQhPOb3iyw',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1506307010',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-25 10:36:50 response :
+------------
+
+2017-09-25 10:40:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwOQ9RWCY0i6UCeQhPOb3iyw]]></FromUserName>
+<CreateTime>1506307245</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[那卖摇控器]]></Content>
+<MsgId>6469540355419339770</MsgId>
+</xml>
+
+2017-09-25 10:40:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwOQ9RWCY0i6UCeQhPOb3iyw',
+    'createtime' => '1506307245',
+    'msgtype' => 'text',
+    'content' => '那卖摇控器',
+    'msgid' => '6469540355419339770',
+    'from' => 'oKcVMwOQ9RWCY0i6UCeQhPOb3iyw',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1506307245',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-09-25 10:40:45 response :
+------------
+
+2017-09-25 10:41:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwOQ9RWCY0i6UCeQhPOb3iyw]]></FromUserName>
+<CreateTime>1506307261</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/oJb77vDPGo3PBwban8PWWl605oB6DYZ1XYMsKpGrIicb99vBQsicp461CmlxMuLZbskSInJDIlPfTOWiclFny0Jgw/0]]></PicUrl>
+<MsgId>6469540424138816508</MsgId>
+<MediaId><![CDATA[O0Mp09pLtA6VmR_hGWUsG9DKnokOQKK832D15ORVzP3_CWud0olBgccWh__1-1bO]]></MediaId>
+</xml>
+
+2017-09-25 10:41:03 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwOQ9RWCY0i6UCeQhPOb3iyw',
+    'createtime' => '1506307261',
+    'msgtype' => 'image',
+    'picurl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/oJb77vDPGo3PBwban8PWWl605oB6DYZ1XYMsKpGrIicb99vBQsicp461CmlxMuLZbskSInJDIlPfTOWiclFny0Jgw/0',
+    'msgid' => '6469540424138816508',
+    'mediaid' => 'O0Mp09pLtA6VmR_hGWUsG9DKnokOQKK832D15ORVzP3_CWud0olBgccWh__1-1bO',
+    'from' => 'oKcVMwOQ9RWCY0i6UCeQhPOb3iyw',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1506307261',
+    'type' => 'image',
+    'event' => NULL,
+    'url' => 'http://mmbiz.qpic.cn/mmbiz_jpg/oJb77vDPGo3PBwban8PWWl605oB6DYZ1XYMsKpGrIicb99vBQsicp461CmlxMuLZbskSInJDIlPfTOWiclFny0Jgw/0',
+  ),
+)
+
+2017-09-25 10:41:03 response :
+------------
+
+2017-09-25 21:13:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwFrVxzDFR8ix0StVV8f_fJA]]></FromUserName>
+<CreateTime>1506345187</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[这电视是不用不到一年就不行了]]></Content>
+<MsgId>6469703315068500414</MsgId>
+</xml>
+
+2017-09-25 21:13:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwFrVxzDFR8ix0StVV8f_fJA',
+    'createtime' => '1506345187',
+    'msgtype' => 'text',
+    'content' => '这电视是不用不到一年就不行了',
+    'msgid' => '6469703315068500414',
+    'from' => 'oKcVMwFrVxzDFR8ix0StVV8f_fJA',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1506345187',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-09-25 21:13:07 response :
+------------
+

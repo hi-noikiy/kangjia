@@ -1,0 +1,141 @@
+10
+
+dir
+361
+svn://127.0.0.1/kangjia/addons/ewei_shopv2/plugin/merch/core/web/manage
+svn://127.0.0.1/kangjia
+
+
+
+2017-09-01T08:54:23.871750Z
+2
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d6273ff3-079f-4fef-9794-6be2ae397c52
+
+plugins
+dir
+
+diypage
+dir
+
+sale
+dir
+
+apply
+dir
+
+statistics
+dir
+
+sysset
+dir
+
+index.php
+file
+
+
+
+
+2017-09-01T09:22:33.466791Z
+405dfc48230ef8dfa634100f74396658
+2017-09-01T08:54:23.871750Z
+2
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1566
+
+login.php
+file
+
+
+
+
+2017-09-01T09:22:33.466791Z
+78a33839c67ce099afa29c2897e1eba0
+2017-09-01T08:54:23.871750Z
+2
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1956
+
+perm
+dir
+
+creditshop
+dir
+
+taobao
+dir
+
+member
+dir
+
+shop
+dir
+
+goods
+dir
+
+order
+dir
+
+exhelper
+dir
+
+util
+dir
+

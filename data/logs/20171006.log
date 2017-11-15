@@ -1,0 +1,112 @@
+2017-10-06 10:10:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwBVaJmoz3PfFInRpIolVvWo]]></FromUserName>
+<CreateTime>1507255817</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-06 10:10:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwBVaJmoz3PfFInRpIolVvWo',
+    'createtime' => '1507255817',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwBVaJmoz3PfFInRpIolVvWo',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1507255817',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-10-06 10:10:17 response :
+------------
+
+2017-10-06 10:10:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwBVaJmoz3PfFInRpIolVvWo]]></FromUserName>
+<CreateTime>1507255833</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[小家电]]></Content>
+<MsgId>6473614509856975416</MsgId>
+</xml>
+
+2017-10-06 10:10:33 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwBVaJmoz3PfFInRpIolVvWo',
+    'createtime' => '1507255833',
+    'msgtype' => 'text',
+    'content' => '小家电',
+    'msgid' => '6473614509856975416',
+    'from' => 'oKcVMwBVaJmoz3PfFInRpIolVvWo',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1507255833',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-06 10:10:33 response :
+------------
+
+2017-10-06 22:03:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwAUEv6BtPAxtzfe8hhmugRU]]></FromUserName>
+<CreateTime>1507298594</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-06 22:03:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwAUEv6BtPAxtzfe8hhmugRU',
+    'createtime' => '1507298594',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwAUEv6BtPAxtzfe8hhmugRU',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1507298594',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-10-06 22:03:14 response :
+------------
+

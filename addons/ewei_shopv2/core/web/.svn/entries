@@ -1,0 +1,132 @@
+10
+
+dir
+361
+svn://127.0.0.1/kangjia/addons/ewei_shopv2/core/web
+svn://127.0.0.1/kangjia
+
+
+
+2017-09-20T07:53:32.805112Z
+361
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d6273ff3-079f-4fef-9794-6be2ae397c52
+
+plugins
+dir
+
+finance
+dir
+
+perm
+dir
+
+util.php
+file
+
+
+
+
+2017-09-01T09:22:31.867845Z
+1900e1645e71b6e00d30b1836c81a9b8
+2017-09-01T08:54:23.871750Z
+2
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1139
+
+sale
+dir
+
+system
+dir
+
+member
+dir
+
+shop
+dir
+
+statistics
+dir
+
+sysset
+dir
+
+goods
+dir
+
+order
+dir
+
+util
+dir
+
+index.php
+file
+
+
+
+
+2017-09-01T09:22:31.867845Z
+16e8af7d214dbfd1d2066ed2efeee1e1
+2017-09-01T08:54:23.871750Z
+2
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+191
+

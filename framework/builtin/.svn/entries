@@ -1,0 +1,76 @@
+10
+
+dir
+361
+svn://127.0.0.1/kangjia/framework/builtin
+svn://127.0.0.1/kangjia
+
+
+
+2017-09-01T08:54:23.871750Z
+2
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d6273ff3-079f-4fef-9794-6be2ae397c52
+
+music
+dir
+
+recharge
+dir
+
+basic
+dir
+
+default
+dir
+
+core
+dir
+
+wxcard
+dir
+
+paycenter
+dir
+
+chats
+dir
+
+task
+dir
+
+images
+dir
+
+voice
+dir
+
+video
+dir
+
+userapi
+dir
+
+custom
+dir
+
+news
+dir
+
+cover
+dir
+

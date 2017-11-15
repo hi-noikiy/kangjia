@@ -1,0 +1,205 @@
+2017-09-15 06:43:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwHfliHBqbOnGes4XZvyejW4]]></FromUserName>
+<CreateTime>1505429015</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-15 08:58:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwFQ4MP57woU8qGSYzKDl45Q]]></FromUserName>
+<CreateTime>1505437093</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-15 11:01:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwCsylKKbz28ZFyfZGL7cGH8]]></FromUserName>
+<CreateTime>1505444498</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-15 11:01:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwCsylKKbz28ZFyfZGL7cGH8',
+    'createtime' => '1505444498',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwCsylKKbz28ZFyfZGL7cGH8',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1505444498',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-15 11:01:38 response :
+------------
+
+2017-09-15 12:15:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwMCxz4FbqtxOjmOlLJs-HGM]]></FromUserName>
+<CreateTime>1505448919</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-15 15:39:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwLAc2WiPuPeNi03skKVVE7M]]></FromUserName>
+<CreateTime>1505461163</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-15 20:47:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwEwiSX7iJbzOVqt-JBfcI2M]]></FromUserName>
+<CreateTime>1505479678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-15 20:47:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwEwiSX7iJbzOVqt-JBfcI2M',
+    'createtime' => '1505479678',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oKcVMwEwiSX7iJbzOVqt-JBfcI2M',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1505479678',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-15 20:47:58 response :
+------------
+
+2017-09-15 20:48:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwEwiSX7iJbzOVqt-JBfcI2M]]></FromUserName>
+<CreateTime>1505479703</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[请问，为什么我的电视一直开机关机]]></Content>
+<MsgId>6465986089593047389</MsgId>
+</xml>
+
+2017-09-15 20:48:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwEwiSX7iJbzOVqt-JBfcI2M',
+    'createtime' => '1505479703',
+    'msgtype' => 'text',
+    'content' => '请问，为什么我的电视一直开机关机',
+    'msgid' => '6465986089593047389',
+    'from' => 'oKcVMwEwiSX7iJbzOVqt-JBfcI2M',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1505479703',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-09-15 20:48:23 response :
+------------
+
+2017-09-15 20:48:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwEwiSX7iJbzOVqt-JBfcI2M]]></FromUserName>
+<CreateTime>1505479724</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[刚刚才看一下就重启]]></Content>
+<MsgId>6465986179787360612</MsgId>
+</xml>
+
+2017-09-15 20:48:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_ceac403c5625',
+    'fromusername' => 'oKcVMwEwiSX7iJbzOVqt-JBfcI2M',
+    'createtime' => '1505479724',
+    'msgtype' => 'text',
+    'content' => '刚刚才看一下就重启',
+    'msgid' => '6465986179787360612',
+    'from' => 'oKcVMwEwiSX7iJbzOVqt-JBfcI2M',
+    'to' => 'gh_ceac403c5625',
+    'time' => '1505479724',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-09-15 20:48:45 response :
+------------
+
+2017-09-15 20:48:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_ceac403c5625]]></ToUserName>
+<FromUserName><![CDATA[oKcVMwEwiSX7iJbzOVqt-JBfcI2M]]></FromUserName>
+<CreateTime>1505479732</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
